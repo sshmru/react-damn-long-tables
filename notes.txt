@@ -1,0 +1,14 @@
+idea
+should accept collection and mapper OR children?
+
+collection with mapper needs to call map on each scroll
+(possibley slow if complex mapper)
+
+children need to be mapped at the start
+(possible delay)
+
+how about memoize map !?(what about updates)
+
+------
+
+styling - for now it needs precise height in px or parent with set size
